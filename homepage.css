@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: slateblue;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: beige;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+footer {
+    background-color:brown;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
